@@ -1,0 +1,29 @@
+.box {
+    border: 2px solid black;
+    height: 600px;
+    position: relative;
+}
+
+.circle{
+    height: 50px;
+    width: 100px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.red{
+    position: absolute;
+    background-color: red;
+    bottom: 0px;
+}
+.green{
+    position: absolute;
+    right: 0px;
+    background-color: green;
+}
+.blue{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: blue;
+}

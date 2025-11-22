@@ -1,0 +1,27 @@
+.rectangle-parent{
+    position: relative;
+    margin-left: 120px;
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+}
+
+/* .rectangle-child-one{
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    transform: rotate(90deg);
+} */
+
+.rectangle-child-two{
+    position: absolute;
+    background-color: white;
+    width: 181px;
+    height: 161px;
+    /* right: 0px; */
+    transform: rotate(45deg);
+    bottom: 0px;
+}
